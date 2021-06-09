@@ -68,13 +68,13 @@ Using this, one can see all the information about a customer's ordering such as 
 ## File Design Structure                
 •	Rest.dat
 
-| Name	| Type	       | Width         |	Description |
+| Name	 | Type	        | Width         |	Description  |
 |-------|--------------|---------------|--------------|
 | ino   |	int	         | 2 bytes       | Order number | 
-| name	| char(string) | 50 characters | Item name    |
+| name	 | char(string) | 50 characters | Item name    |
 | price	| float	       | 4 bytes       | Item price   |
 | qty	  | float	       | 4 bytes       | quantity     |
-| dis	  | float	       | 4 bytes	     | discount     |  
+| dis	  | float	       | 4 bytes	      | discount     |  
 
 
 
@@ -83,10 +83,10 @@ Using this, one can see all the information about a customer's ordering such as 
 Header files provide function prototype declarations for library functions. 
 | HEADER FILE |	DESCRIPTION / FUNCTIONS USED                                  |
 |-------------|---------------------------------------------------------------|
-| iostream.h	| provides console input/output                                 |
+| iostream.h	 | provides console input/output                                 |
 | conio.h	    | getch, delay, clrscr, gotoxy, kbhit                           |
 | stdio.h	    | gets, puts                                                    |
-| string.h	  | manipulates strings and arrays                                |
+| string.h	   | manipulates strings and arrays                                |
 | fstream.h	  | provides definitions for stream classes ifstream and ofstream |
 | process.h	  | exit                                                          |
 
@@ -97,26 +97,26 @@ Header files provide function prototype declarations for library functions.
 Class restaurant
 | Name  |	Type         | Description               |
 |-------|--------------|---------------------------|
-| ino   |	int          |	Stores the order number  |
-| name  |	char(string) |	Stores the name of item  |
-| price |	float        |	Stores the price of item | 
-| qty   |	float        |	Stores the quantity      |
-| dis   |	float        |	Stores the discount      |
+| ino   |	int          |	Stores the order number   |
+| name  |	char(string) |	Stores the name of item   |
+| price |	float        |	Stores the price of item  | 
+| qty   |	float        |	Stores the quantity       |
+| dis   |	float        |	Stores the discount       |
 
 | Name                    | Description                                  |
 |-------------------------|----------------------------------------------|
-| void create_item();     |	Function to create an item              		 |
-| void show_item();       | Function to display the details of item 		 |
-| int retino();           | Function to return order number         		 |
-| float retprice();       | Function to return price of the item    		 |
-| char* retname();        |	Function to return the item name        		 |
-| float retdis(); 	      | Function to return discount             		 |
-| void write_item();	    | Function to write an item on the file  		   |
+| void create_item();     |	Function to create an item              		   |
+| void show_item();       | Function to display the details of item 		   |
+| int retino();           | Function to return order number         		   |
+| float retprice();       | Function to return price of the item    		   |
+| char* retname();        |	Function to return the item name        		   |
+| float retdis(); 	       | Function to return discount             		   |
+| void write_item();	     | Function to write an item on the file  		    |
 | void display_all();	    | Function to display details of all items     |
 | void display_sp(int n); |	Function to display details of searched item |
 | void modify_item();	    | Function to modify the details of an item    |
 | void delete_item();	    | Function to delete an item                   |
-| void menu();	          | Function to display the menu                 |
+| void menu();	           | Function to display the menu                 |
 | void place_order();	    | Function to place an order and billing       |
-| void admin_menu();	    | Function to display the admin menu           |
+| void admin_menu();	     | Function to display the admin menu           |
 | void intro();	          | Function to display the introduction         |
