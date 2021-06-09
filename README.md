@@ -123,4 +123,4 @@ Class restaurant
 | void admin_menu();	     | Function to display the admin menu           |
 | void intro();	          | Function to display the introduction         |
 
-## [Code link](https://github.com/Ria2810/Restaurant-Management/blob/main/code.txt)
+## [Source Code link](https://github.com/Ria2810/Restaurant-Management/blob/main/code.txt)
