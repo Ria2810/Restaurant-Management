@@ -81,6 +81,7 @@ Using this, one can see all the information about a customer's ordering such as 
  
 ## List of Header Files
 Header files provide function prototype declarations for library functions. 
+
 | HEADER FILE |	DESCRIPTION / FUNCTIONS USED                                  |
 |-------------|---------------------------------------------------------------|
 | iostream.h	 | provides console input/output                                 |
@@ -95,6 +96,7 @@ Header files provide function prototype declarations for library functions.
 ### Description
 
 Class restaurant
+
 | Name  |	Type         | Description               |
 |-------|--------------|---------------------------|
 | ino   |	int          |	Stores the order number   |
